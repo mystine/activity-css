@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color:black;
+    background-color: black;
 }
 
 h1 {
@@ -15,17 +15,18 @@ h1 {
     color: cyan; 
 }
 
-li,
-p {
-    font-weight:normal;
+h1 + p {
+    font-weight: bold;
+    color: coral;
+    text-shadow: deeppink 1px 1.5px;
+}
+
+p,
+li {
+    font-weight: normal;
     font-size: 1rem;
     color: white;
     line-height: 1.5rem;
-}
-
-h1 + p {
-    color: coral;
-    font-weight: bold;
 }
 
 strong { 
@@ -34,4 +35,28 @@ strong {
 
 hr {
     border: 4px dotted cyan;
+}
+
+h2 {
+    font-family: Rockwell, Times, serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: deeppink;
+    text-shadow: coral 1px 1.5px;
+}
+
+ul,
+ol {
+    font-family: Rockwell, Times, serif;
+    background-color: yellowgreen;
+    border-bottom: 4px solid cyan;
+    border-left: 4px solid cyan;
+}
+
+h3 {
+    font-family: Rockwell, Times, serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: coral;
+    text-shadow: deeppink 1px 1.5px;    
 }
