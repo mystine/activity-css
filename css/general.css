@@ -1,13 +1,37 @@
 /* CSS Document */
 
 html {
-    font-family: Arial, Helvetica, sans;
+    font-family: Georgia, Times, serif;
 }
 
-body {}
+body {
+    background-color:black;
+}
 
 h1 {
-    font-family: Georgia, Times, serif;
+    font-family: Rockwell, Times, serif;
     font-weight: normal;
-    font-size: 3rem; /* 1rem = 16px */ 
+    font-size: 3rem; 
+    color: cyan; 
+}
+
+li,
+p {
+    font-weight:normal;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;
+}
+
+h1 + p {
+    color: coral;
+    font-weight: bold;
+}
+
+strong { 
+    color: yellowgreen;
+}
+
+hr {
+    border: 4px dotted cyan;
 }
