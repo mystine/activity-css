@@ -1,2 +1,13 @@
 /* CSS Document */
-/*
+
+html {
+    font-family: Arial, Helvetica, sans;
+}
+
+body {}
+
+h1 {
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+    font-size: 3rem; /* 1rem = 16px */ 
+}
